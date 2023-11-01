@@ -5,8 +5,7 @@ const Layout = function getLayout(page: ReactNode): JSX.Element {
   return (
     <>
       <Head>
-        <title>Grof Co</title>
-        <meta content="Financing features from SproutAsia" name="description" />
+        <title>Doc Gen</title>
         <link href="/favicon.ico" rel="icon" />
       </Head>
 

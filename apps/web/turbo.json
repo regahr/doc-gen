@@ -1,0 +1,15 @@
+{
+  "extends": ["//"],
+  "pipeline": {
+    "build": {
+      "env": [
+        "S3_REGION",
+        "S3_ACCESS_KEY",
+        "S3_SECRET",
+        "S3_BUCKET",
+        "NEXT_PUBLIC_API_URL"
+      ],
+      "outputs": [".next/**", "!.next/cache/**"]
+    }
+  }
+}
